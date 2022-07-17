@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: teal;
   text-decoration: none;
 }
 
@@ -51,6 +51,8 @@
 }
 
 .description {
+  color: teal;
+  font-weight: 400;
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
@@ -113,4 +115,38 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.input {
+  width: 20rem;
+  height: 3rem;
+  font-size: 2rem;
+  border-style: none;
+  border-bottom: gray 2px solid;
+  outline: none;
+}
+
+.submitButton {
+  background-color: teal;
+  width: 10rem;
+  height: 2.5rem;
+  border-style: none;
+  margin-left: 2rem;
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.urlCreateBox {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.urlInput {
+  width: 25rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-style: none;
+  border-bottom: gray 2px solid;
+  outline: none;
 }
